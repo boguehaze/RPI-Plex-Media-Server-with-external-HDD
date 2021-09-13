@@ -35,6 +35,7 @@ Or you can follow this article to get it done on your RPI: https://www.pidramble
 Once your drive is ready to be used by PMS you will have to give the right permissions to the Plex server that is created when installing PMS on your RPI.
 
 Open your terminal and type in these commands:
+
 sudo usermod -a -G pi plex
 sudo usermod -a -G plugdev plex
 sudo chmod 775 /media/pi
