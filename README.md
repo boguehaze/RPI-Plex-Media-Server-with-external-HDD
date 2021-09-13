@@ -36,9 +36,13 @@ Once your drive is ready to be used by PMS you will have to give the right permi
 
 Open your terminal and type in these commands:
 
+
 sudo usermod -a -G pi plex
+
 sudo usermod -a -G plugdev plex
+
 sudo chmod 775 /media/pi
+
 
 Once done PMS will be able to see files on your external USB connected HDD and display them in your PMS library.
 
